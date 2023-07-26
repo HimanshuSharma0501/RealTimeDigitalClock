@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.clock {
+  font-size: 70px;
+  font-weight: 800;
+  color: red;
+  margin-bottom: 2px;
+  height: 30vh;
+  width: 30vw;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: blue;
+  color: whitesmoke;
+  border: none;
+  border-radius: 42px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
